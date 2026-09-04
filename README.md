@@ -6,7 +6,8 @@ Horizon Tech Solutions is a fictional Nigerian tech company hiring across 5 depa
 **Tools used:** SQL (SQLite), Excel, Power BI
 
 ## Key Takeaway
-*(coming once all parts are done)*
+
+Customer Support is Horizon Tech's strongest performing department, both in fill rate and speed of hiring, while Engineering is the hardest to fill despite paying nearly three times the average salary of Customer Support. Referrals convert at a far higher rate than any other recruitment source, suggesting the company could reduce wasted effort by leaning more heavily on employee referrals. Hiring activity slows sharply in the final quarter of the year, most likely tied to holiday scheduling and year end budget cycles.
 
 ---
 
@@ -156,4 +157,6 @@ This page allows deeper, interactive exploration:
 In this section, I brought the cleaned data into Power BI Service to build a 2 page interactive dashboard for a non technical audience. Beyond presenting the findings visually, I used a dedicated salary comparison chart to explore whether pay alone explains the hiring difficulty, uncovering a pattern not visible in the SQL or Excel analysis alone.
 
 ## Conclusion
-*(coming once all parts are done)*
+## Conclusion
+
+This project set out to answer a real business question: which departments are struggling to hire, why, and which recruitment channels actually work. By working through the same dataset with three different tools, I was able to both validate my findings and add new layers of insight at each stage. SQL gave a fast, precise way to answer direct business questions and catch a data modeling error before it led to a wrong conclusion. Excel added a cross checked view of the data, including a three step lookup chain to trace department information across multiple linked sheets. Power BI brought everything together into a single interactive dashboard that a non technical stakeholder could explore on their own, with color coding designed to communicate performance at a glance. Together, this workflow reflects how a real analyst moves from raw data to a decision ready deliverable, even when the data itself raises new questions along the way, like why a department that pays more still struggles to hire.
